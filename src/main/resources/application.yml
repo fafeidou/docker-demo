@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useSSL=false
+    username: root
+    password: root
+#    data: data.sql
+    platform: MYSQL
+    continue-on-error: false
+#    schema: schema.sql
+#    initialize: true
+  application:
+    name: docker
+server:
+  port: 8080
