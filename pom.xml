@@ -33,11 +33,6 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -51,7 +46,7 @@
 				<version>0.4.13</version>
 				<configuration>
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
-					<dockerHost>http://192.168.25.129:2375</dockerHost>
+					<dockerHost>http://192.168.220.131:2375</dockerHost>
 					<dockerDirectory>src/main/docker</dockerDirectory>
 					<resources>
 						<resource>

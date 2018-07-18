@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/test?useSSL=false
+    url: jdbc:mysql://192.168.220.131:3306/test?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: root
 #    data: data.sql
@@ -9,7 +9,5 @@ spring:
     continue-on-error: false
 #    schema: schema.sql
 #    initialize: true
-  application:
-    name: docker
 server:
-  port: 8080
+  port: 8088
