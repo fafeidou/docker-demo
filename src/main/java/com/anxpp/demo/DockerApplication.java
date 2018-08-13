@@ -16,6 +16,6 @@ public class DockerApplication {
     @GetMapping("/")
     @ResponseBody
     public String index() {
-        return "hello world!";
+        return "hello world auto !";
     }
 }
