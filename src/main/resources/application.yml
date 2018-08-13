@@ -1,12 +1,12 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.220.131:3306/test?useUnicode=true&characterEncoding=UTF-8
-    username: root
-    password: root
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://192.168.220.131:3306/test?useUnicode=true&characterEncoding=UTF-8
+#    username: root
+#    password: root
+#    platform: MYSQL
+#    continue-on-error: false
 #    data: data.sql
-    platform: MYSQL
-    continue-on-error: false
 #    schema: schema.sql
 #    initialize: true
 server:
