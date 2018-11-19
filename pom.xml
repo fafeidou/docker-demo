@@ -46,7 +46,8 @@
 				<version>0.4.13</version>
 				<configuration>
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
-					<dockerHost>http://10.0.1.109:2375</dockerHost>
+					<dockerHost>https://192.168.32.111:2375</dockerHost>
+					<dockerCertPath>C:\ssl</dockerCertPath>
 					<dockerDirectory>src/main/docker</dockerDirectory>
 					<resources>
 						<resource>
